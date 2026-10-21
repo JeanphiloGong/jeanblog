@@ -20,7 +20,7 @@ hugo version
 
 ## 快速开始
 ```bash
-git clone --recurse-submodules git@github.com:shio-chan-dev/jeanblog.git
+git clone --recurse-submodules git@github.com:JeanphiloGong/jeanblog.git
 cd jeanblog
 hugo server -D
 ```
