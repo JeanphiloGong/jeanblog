@@ -85,7 +85,7 @@ git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/Pape
 修改 `config.toml`：
 
 ```toml
-baseURL = "https://shio-chan-dev.github.io/jeanblog/"
+baseURL = "https://jeanphilogong.github.io/jeanblog/"
 languageCode = "zh-cn"
 title = "Jean’s Blog"
 theme = "PaperMod"
@@ -107,7 +107,7 @@ git push -u origin main
 ### **✔ 第 3 步：启用 GitHub Pages（关键）**
 
 进入你的仓库：
-`https://github.com/shio-chan-dev/jeanblog`
+`https://github.com/JeanphiloGong/jeanblog`
 
 点击：
 
@@ -197,7 +197,7 @@ git push
 看到提示：
 
 📢 *Your site is live at:*
-[https://shio-chan-dev.github.io/jeanblog/](https://shio-chan-dev.github.io/jeanblog/)
+[https://jeanphilogong.github.io/jeanblog/](https://jeanphilogong.github.io/jeanblog/)
 
 现在博客上线了 🎉
 

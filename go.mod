@@ -1,4 +1,4 @@
-module github.com/shio-chan-dev/jeanblog
+module github.com/JeanphiloGong/jeanblog
 
 go 1.22.2
 

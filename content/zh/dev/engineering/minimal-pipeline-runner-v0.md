@@ -10,7 +10,7 @@ keywords: ["pipeline runner", "python pipeline", "workflow runner", "step observ
 readingTime: "约 18 分钟"
 ---
 
-> 源码仓库：<https://github.com/shio-chan-dev/nano-pipeline-runner>
+> 源码仓库：<https://github.com/JeanphiloGong/nano-pipeline-runner>
 >
 > 本文对应仓库里的 v0 checkpoint：最小顺序 Pipeline Runner。配套代码和测试都在仓库中。
 
@@ -1081,7 +1081,7 @@ Checkpoint：这就是完整 v0 runner。它故意很小：没有 run id，没�
 最终项目可以这样验证：
 
 ```bash
-git clone https://github.com/shio-chan-dev/nano-pipeline-runner.git
+git clone https://github.com/JeanphiloGong/nano-pipeline-runner.git
 cd nano-pipeline-runner
 PYTHONPATH=src python3 -m unittest discover -s tests
 ```
@@ -1114,4 +1114,4 @@ PYTHONPATH=src python3 -m unittest discover -s tests
 
 这个压力会自然推导到 graph plan、dependency validation、ready wave 和 failed dependency blocking。那些是 v1 关注的内容，所以不放进这篇 v0。
 
-源码仓库在这里：<https://github.com/shio-chan-dev/nano-pipeline-runner>。
+源码仓库在这里：<https://github.com/JeanphiloGong/nano-pipeline-runner>。

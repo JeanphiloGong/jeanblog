@@ -10,7 +10,7 @@ keywords: ["graph pipeline runner", "python pipeline", "workflow graph", "ready 
 readingTime: "约 12 分钟"
 ---
 
-> 源码仓库：<https://github.com/shio-chan-dev/nano-pipeline-runner>
+> 源码仓库：<https://github.com/JeanphiloGong/nano-pipeline-runner>
 >
 > 本文对应仓库里的 v1 checkpoint：Graph Pipeline Runner。建议先读上一篇：
 > [从普通函数调用推导一个最小 Pipeline Runner](/zh/dev/engineering/minimal-pipeline-runner-v0/)。
@@ -660,4 +660,4 @@ workflow list 不能表达多个下游节点在同一个上游成功后同时 re
 
 如果你已经实现了 v0，那么 v1 是一个自然的下一步。下一篇可以继续往工程系统走：给 graph run 加 `run_id` 和持久化，让 resume / cancel 有一个稳定的目标。
 
-源码仓库在这里：<https://github.com/shio-chan-dev/nano-pipeline-runner>。
+源码仓库在这里：<https://github.com/JeanphiloGong/nano-pipeline-runner>。
