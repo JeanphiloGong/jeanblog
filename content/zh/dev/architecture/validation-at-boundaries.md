@@ -240,3 +240,9 @@ HTTP 请求是入口，导入文件、消息队列和人工编辑的 JSON 文件
 前一篇[《让领域模型和仓储模型各自负责》]({{< relref "domain-and-repository-boundaries.md" >}})讲的是如何划分责任。这篇的改价例子进一步要求：责任划分之后，后面的代码应当能够使用前面已经建立的保证。
 
 下一次遇到一个看起来“更安全”的辅助方法，可以先问：**它处理的是哪个边界上的具体风险？如果删除它，哪一种错误会失去防护？**
+
+## 系列阅读：分层与边界
+
+1. [让领域模型和仓储模型各自负责]({{< relref "domain-and-repository-boundaries.md" >}})：模型职责。
+2. [分层之后，为什么每一层还在重复校验？]({{< relref "validation-at-boundaries.md" >}})：校验位置。
+3. [让 Agent 少写防御性代码：每条校验都要有理由]({{< relref "validation-needs-a-reason.md" >}})：校验的必要性与具体简化方法。

@@ -153,3 +153,9 @@ class ProductRepository:
 领域模型保护业务规则，ORM 模型服务数据库，Repository 契约隔离持久化细节，API 模型稳定客户端协议。四者之间允许转换，但不互相冒充。这样的组织方式会多出少量映射代码，却能把变化限制在真正发生变化的边界内。
 
 延伸阅读：[《分层之后，为什么每一层还在重复校验？》]({{< relref "validation-at-boundaries.md" >}})用一个修改商品价格的可运行例子，进一步区分入口类型检查、领域业务约束与存储转换。
+
+## 系列阅读：分层与边界
+
+1. [让领域模型和仓储模型各自负责]({{< relref "domain-and-repository-boundaries.md" >}})：模型职责。
+2. [分层之后，为什么每一层还在重复校验？]({{< relref "validation-at-boundaries.md" >}})：校验位置。
+3. [让 Agent 少写防御性代码：每条校验都要有理由]({{< relref "validation-needs-a-reason.md" >}})：校验的必要性与具体简化方法。
