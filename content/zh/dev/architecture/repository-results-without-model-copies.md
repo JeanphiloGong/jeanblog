@@ -247,5 +247,6 @@ response = TemplateResponse(
 2. [分层之后，为什么每一层还在重复校验？]({{< relref "validation-at-boundaries.md" >}})：入口与业务规则的分工。
 3. [让 Agent 少写防御性代码：每条校验都要有理由]({{< relref "validation-needs-a-reason.md" >}})：如何判断检查是否必要。
 4. 本篇：查询结果的组合、存储映射与重复模型的取舍。
+5. [从 Agent 到 JSON 文件：分层系统的数据如何流转]({{< relref "domain-models-through-application-services.md" >}})：把接口、应用、领域与仓储接成完整的读写和响应流程。
 
 参考：[Python dataclass 与 asdict](https://docs.python.org/3/library/dataclasses.html)、[JSON 编码器支持的类型](https://docs.python.org/3/library/json.html#json.JSONEncoder)、[os.replace 的语义](https://docs.python.org/3/library/os.html#os.replace)。
